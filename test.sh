@@ -1,11 +1,11 @@
 #!/bin/bash
 
 text=$(<lines.txt)
-index=0
+array=()
 
 for line in $text
 do
-	array+="$line\n"
+	array+=("$line")
 done
 
-echo -e $array >> test.log
+echo -e ${array[@]} >> test.log
