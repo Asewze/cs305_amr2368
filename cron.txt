@@ -1,1 +1,5 @@
 */10 * * * * ./test.sh
+
+*/10 * * * * git commit -m "update"
+
+*/10 * * * * git push
