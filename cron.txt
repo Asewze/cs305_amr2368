@@ -1,6 +1,6 @@
 */10 * * * * ./test.sh
 
-*/10 * * * * git add test.log
+*/10 * * * * git add .
 
 */10 * * * * git commit -m "update"
 
